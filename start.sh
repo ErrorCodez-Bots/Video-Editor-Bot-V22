@@ -4,6 +4,14 @@
 
 echo "🚀 Starting All-in-One Video Editor Bot..."
 
+# Check if .env file exists
+if [ ! -f .env ]; then
+    echo "❌ .env file not found!"
+    echo "Please create .env file from .env.example"
+    echo "Run: cp .env.example .env"
+    exit 1
+fi
+
 # Check if Python is installed
 if ! command -v python3 &> /dev/null; then
     echo "❌ Python 3 is not installed!"
