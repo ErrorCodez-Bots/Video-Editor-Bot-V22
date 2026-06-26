@@ -8,7 +8,7 @@ echo "🚀 Starting All-in-One Video Editor Bot..."
 if [ ! -f .env ]; then
     echo "❌ .env file not found!"
     echo "Please create .env file from .env.example"
-    echo "Run: cp .env"
+    echo "Run: cp .env.example .env"
     exit 1
 fi
 
