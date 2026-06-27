@@ -4,7 +4,7 @@ Configuration module for the Video Editor Bot
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv()  # This line loads the .env file
 
 class Config:
     """Bot configuration class"""
